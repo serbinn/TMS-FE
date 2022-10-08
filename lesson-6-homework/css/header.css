@@ -1,0 +1,48 @@
+header{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.09);
+}
+nav a{
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    color: #212A2F;
+    text-decoration: none;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.nav-left__list{
+    display: flex;
+    margin-left: 12px;
+}
+.nav-left__list li{
+    margin-left: 36px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right__list{
+    display: flex;
+}
+.nav-right__list li{
+    margin-right: 36px; 
+}
+.logo{
+    
+}
+.nav-right__user-actions{
+    display: flex;
+    margin-right: 35px;
+}
+.user-actions__button{
+    border: none;
+    background-color: #FFFFFF;
+}
