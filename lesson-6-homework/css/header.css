@@ -1,8 +1,18 @@
 header{
     background: #FFFFFF;
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.09);
+    padding: 10px 0;
 }
-nav a{
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-list{
+    display: flex;
+    align-items: center;
+}
+.navigation-list a{
     font-size: 12px;
     line-height: 21px;
     text-align: center;
@@ -11,38 +21,24 @@ nav a{
     color: #212A2F;
     text-decoration: none;
 }
-.header-wrap{
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-    justify-content: space-between;
+.navigation-list li:not(:last-child){
+    margin-right: 36px;
 }
-.nav-left__list{
-    display: flex;
-    margin-left: 12px;
-}
-.nav-left__list li{
-    margin-left: 36px;
-}
-
-.nav-right{
-    display: flex;
-    align-items: center;
-}
-.nav-right__list{
+.navigation-links{
     display: flex;
 }
-.nav-right__list li{
-    margin-right: 36px; 
-}
-.logo{
-    
-}
-.nav-right__user-actions{
+.navigation-user-action{
     display: flex;
-    margin-right: 35px;
 }
-.user-actions__button{
+.navigation-user-action__icon{
     border: none;
     background-color: #FFFFFF;
+    margin-left: 18px;
 }
+.fa-regular{
+   font-size: 25px;
+}
+.fa-cart-shopping{
+    font-size: 25px;
+}
+

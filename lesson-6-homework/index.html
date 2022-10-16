@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/./css/awesome-iconfont.css"/>
   <title>Allbirds</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -11,74 +12,167 @@
   <header class="header">
     <div class="container">
       <div class="header-wrap">
-        <nav class="nav-left">
-          <ul class="nav-left__list">
-            <li>
-              <a href="#">men</a>
-            </li>
-            <li>
-              <a href="#">women</a>
-            </li>
-            <li>
-              <a href="#">new arrivals</a>
-            </li>
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li><a href="#">men</a></li>
+            <li><a href="#">women</a></li>
+            <li><a href="#">new arrivals</a></li>
           </ul>
         </nav>
         <div class="logo">
           <img src="./img/Logo.svg" alt="Logo">
         </div>
-        <nav class="nav-right">
-          <ul class="nav-right__list">
-            <li>
-              <a href="#">sustainability</a>
-            </li>
-            <li>
-              <a href="#">stores</a>
-            </li>
+        <div class="navigation-links">
+          <ul class="navigation-list navigation-links-list">
+            <li><a href="#">sustainability</a></li>
+            <li><a href="#">stores</a></li>
           </ul>
-          <ul class="nav-right__user-actions">
-            <li>
-              <button class="user-actions__button">
-                <img src="./img/Sign in.svg" alt="Sign">
+          <div class="navigation-user-action">
+              <button class="navigation-user-action__icon">
+                <div class="fa-regular fa-user"></div>
               </button>
-            </li>
-            <li>
-              <button class="user-actions__button">
-                <img src="./img/Help.svg" alt="Help">
+              <button class="navigation-user-action__icon">
+                <span class="fa-regular fa-circle-question"></span>
               </button>
-            </li>
-            <li>
-              <button class="user-actions__button">
-                <img src="./img/Cart.svg" alt="Cart">
+              <button class="navigation-user-action__icon">
+                <span class="fa-solid fa-cart-shopping"></span>
               </button>
-            </li>
-          </ul>
-        </nav> 
+          </div>    
+        </div>
       </div>
     </div>
   </header>
   <section class="main-info">
-    <div class="container">
       <div class="main-info__background">
         <img src="./img/Main-bg.jpeg" alt="main-info">
         <div class="content-wrap">
           <h1 class="main-info__title">
-            The Trail Runner SWT Is Here.
+             The Trail Runner SWT Is Here.
           </h1>
           <span class="main-info__description">
             Durable. Comfortable. Ready to get dirty.
           </span>
-          <div class="main-info__mail">
-            <button class="men-button">
+          <div class="main-info__gender">
+            <button class="button">
               Shop Men
             </button>
-            <button class="wom-button">
+            <button class="button">
               Shop Women
             </button>
           </div>
         </div>
+      </div>  
+  </section>
+  <section class="favorites">
+    <div class="container">
+      <h2 class="favorites-title">
+        Our Favorites
+      </h2>
+      <div class="tab-wrap">
+        <input type="radio" id="tab-everyday" name="tab" checked>
+        <label for="tab-everyday" class="tab">everyday</label>
+        <input type="radio" id="tab-running" name="tab">
+        <label for="tab-2" class="tab">running</label>
+        <input type="radio" id="tab-travel" name="tab">
+        <label for="tab-travel" class="tab">travel</label>
+      </div>  
+      <hr class="tab-separator">
+      <div class="tab-content">
+        <div class="tab-content__background">
+          <img src="./img/Everyday.jpg" alt="everyday">
+          <div class="tab-content__buttons">
+            <button class="tab-button">
+              Shop Men
+            </button>
+            <button class="tab-button">
+              Shop Women
+            </button>
+          </div>
+        </div>
+        <h3 class="tab-title">
+          Wool Runner
+        </h3>
+        <div class="tab-description">
+          <div class="tab-description__img">
+            <img src="./img/Cozy Sneaker.svg" alt="Cozy Sneaker">
+          </div>
+          <span>Cozy Sneaker</span>
+        </div>
       </div>
     </div>
   </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrap-top">
+        <div class+="footer-top__help">
+          <h4 class="footer-title">
+            Help
+          </h4>
+          <ul class="footer-top__links">
+            <li><a href="#">1-888-963-8944</a></li>
+            <li><a href="#">1-814-251-9966 (Text)</a></li>
+            <li><a href="#">help@allbirds.com</a></li>
+            <li><a href="#">Returns/Exchanges</a></li>
+            <li><a href="#">FAQ/Contact Us</a></li>
+            <li><a href="#">Afterpay</a></li>
+          </ul>
+        </div>
+        <div class="footer-top__shop">
+          <h4 class="footer-title">
+            Shop
+          </h4>
+          <ul class="footer-top__links">
+            <li><a href="#">Men's Shoes</a></li>
+            <li><a href="#">Women's Shoes</a></li>
+            <li><a href="#">Men's Apparel</a></li>
+            <li><a href="#">Women's Apparel</a></li>
+            <li><a href="#">Socks</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Download the Allbirds App</a></li>
+          </ul>
+        </div>
+        <div class="footer-top__company">
+          <h4 class="footer-title">
+            Company
+          </h4>
+          <ul class="footer-top__links">
+            <li><a href="#">Our Stores</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Our Materials</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Partnerships</a></li>
+            <li><a href="#">Product Testing</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Bulk Orders</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">California Transparency Act</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-wrap-bottom">
+        <div class="footer-bottom__flock">
+          <h4 class="footer-title">
+            Follow the Flock
+          </h4>
+          <p class="footer-bottom__flock-description">
+            Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have cute sheep, too. #weareallbirds
+          </p>
+        </div>
+        <div class="footer-bottom__links">
+          <a href="#" class="footer-link">
+            <img src="./img/Japan flag.svg" alt="japan flag">
+          </a>
+          <a href="#" class="footer-link">
+            <img src="./img/South Korea flag.svg" alt="south korea flag">
+          </a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&#169 2021 Allbirds, Inc. All Rights Reserved.Terms, Privacy, &#38&nbsp;Accessibility</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
