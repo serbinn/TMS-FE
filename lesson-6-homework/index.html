@@ -13,55 +13,53 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="header-wrap">
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li><a href="#">men</a></li>
-            <li><a href="#">women</a></li>
-            <li><a href="#">new arrivals</a></li>
-          </ul>
-        </nav>
+      <div class="header-wrap">      
+        <ul class="navigation-list">
+          <li class="navigation-list__item"><a href="#" class="navigation-list__item-link">men</a></li>
+          <li class="navigation-list__item"><a href="#" class="navigation-list__item-link">women</a></li>
+          <li class="navigation-list__item"><a href="#" class="navigation-list__item-link">new arrivals</a></li>
+        </ul>     
         <div class="logo">
           <img src="./img/Logo.svg" alt="Logo">
         </div>
-        <div class="navigation-links">
-          <ul class="navigation-list navigation-links-list">
-            <li><a href="#">sustainability</a></li>
-            <li><a href="#">stores</a></li>
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-list__item"><a href="#" class="navigation-list__item-link">sustainability</a></li>
+            <li class="navigation-list__item"><a href="#" class="navigation-list__item-link">stores</a></li>
           </ul>
           <div class="navigation-user-action">
-            <button class="navigation-user-action__icon">
+            <button class="navigation__button">
               <div class="fa-regular fa-user"></div>
             </button>
-            <button class="navigation-user-action__icon">
+            <button class="navigation__button">
               <span class="fa-regular fa-circle-question"></span>
             </button>
-            <button class="navigation-user-action__icon">
+            <button class="navigation__button">
               <span class="fa-solid fa-cart-shopping"></span>
             </button>
           </div>
-        </div>
+        </nav>
       </div>
     </div>
   </header>
   <section class="main-info">
     <div class="main-info__background">
       <img src="./img/Main-bg.jpeg" alt="main-info">
-      <div class="content-wrap">
-        <h1 class="main-info__title">
-          The Trail Runner SWT Is Here.
-        </h1>
-        <span class="main-info__description">
-          Durable. Comfortable. Ready to get dirty.
-        </span>
-        <div class="main-info__gender">
-          <button class="button">
-            Shop Men
-          </button>
-          <button class="button">
-            Shop Women
-          </button>
-        </div>
+    </div>
+    <div class="content-wrap">
+      <h1 class="main-info__title">
+        The Trail Runner SWT Is Here.
+      </h1>
+      <span class="main-info__description">
+        Durable. Comfortable. Ready to get dirty.
+      </span>
+      <div class="main-info__gender">
+        <button class="button">
+          Shop Men
+        </button>
+        <button class="button">
+          Shop Women
+        </button>
       </div>
     </div>
   </section>
@@ -74,13 +72,14 @@
         <input type="radio" id="tab-everyday" name="tab" checked>
         <label for="tab-everyday" class="tab">everyday</label>
         <input type="radio" id="tab-running" name="tab">
-        <label for="tab-2" class="tab">running</label>
+        <label for="tab-running" class="tab">running</label>
         <input type="radio" id="tab-travel" name="tab">
         <label for="tab-travel" class="tab">travel</label>
       </div>
       <hr class="tab-separator">
       <div class="tab-content">
-        <div class="tab-content__background">
+        <div class="tab-content-wrap">
+          <div class="tab-content__background">
           <img src="./img/Everyday.jpg" alt="everyday">
           <div class="tab-content__buttons">
             <button class="tab-button">
@@ -90,17 +89,67 @@
               Shop Women
             </button>
           </div>
-        </div>
-        <h3 class="tab-title">
-          Wool Runner
-        </h3>
-        <div class="tab-description">
-          <div class="tab-description__img">
-            <img src="./img/Cozy Sneaker.svg" alt="Cozy Sneaker">
           </div>
-          <span>Cozy Sneaker</span>
+          <h3 class="tab-title">
+            Wool Runner
+          </h3>
+          <div class="tab-description">
+            <div class="tab-description__img">
+              <img src="./img/Cozy Sneaker.svg" alt="Cozy Sneaker">
+            </div>
+            <span class="tab-description__text">Cozy Sneaker</span>
+          </div>
+        </div>
+        <div class="tab-content-wrap">
+          <div class="tab-content__background">
+          <img src="./img/Running.jpg" alt="running">
+          <div class="tab-content__buttons">
+            <button class="tab-button">
+              Shop Men
+            </button>
+            <button class="tab-button">
+              Shop Women
+            </button>
+          </div>
+          </div>
+          <h3 class="tab-title">
+            Wool Runner
+          </h3>
+          <div class="tab-description">
+            <div class="tab-description__img">
+              <img src="./img/Light and Breezy Sneaker.svg" alt="Light and Breezy Sneaker">
+            </div>
+            <span class="tab-description__text">Cozy Sneaker</span>
+          </div>
+        </div>
+        <div class="tab-content-wrap">
+          <div class="tab-content__background">
+          <img src="./img/Travel.jpg" alt="travel">
+          <div class="tab-content__buttons">
+            <button class="tab-button">
+              Shop Men
+            </button>
+            <button class="tab-button">
+              Shop Women
+            </button>
+          </div>
+          </div>
+          <h3 class="tab-title">
+            Wool Runner
+          </h3>
+          <div class="tab-description">
+            <div class="tab-description__img">
+              <img src="./img/Rain-Ready Sneaker.svg" alt="Cozy Sneaker">
+            </div>
+            <span class="tab-description__text">Cozy Sneaker</span>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="background-only">
+    <div class="background-only__background">
+      <img src="./img/Orange Sneaker.jpg" alt="Orange Sneaker">
     </div>
   </section>
 
@@ -172,9 +221,7 @@
           </a>
         </div>
       </div>
-      <div class="footer-copyright">
-        <p>&#169 2021 Allbirds, Inc. All Rights Reserved.Terms, Privacy, &#38&nbsp;Accessibility</p>
-      </div>
+      <p class="footer-copyright">&#169 2021 Allbirds, Inc. All Rights Reserved.Terms, Privacy, &#38&nbsp;Accessibility</p>
     </div>
   </footer>
 </body>

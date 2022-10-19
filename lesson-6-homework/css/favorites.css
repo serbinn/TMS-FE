@@ -1,3 +1,7 @@
+.favorites{
+  padding-top: 119px;
+  padding-bottom: 142px;
+}
 .favorites-title{
     text-align: center;
     font-family: 'Roboto';
@@ -19,6 +23,14 @@ input[type="radio"] {
     margin: 0 auto;
   }
   .tab-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .tab-content-wrap{
+    max-width: 30%;
+  }
+  .tab-content__background img{
+    max-width: 396px;
     
   }
   .tab {
@@ -34,7 +46,6 @@ input[type="radio"] {
     margin-bottom: -1px;
     display: inline-block;
     padding: 10px 35px;
-    border-bottom: solid 2px #000000;
     max-width: 526px;
   }
 
@@ -43,6 +54,42 @@ input[type="radio"] {
     background: #D3D4D5;
     margin-top: 0px;
     margin-bottom: 30px;
+}
+
+
+
+.tab-content__background{
+  position: relative;
+  display: inline-block;
+}
+.tab-content__buttons{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 36%;
+  left: 15%;
+ 
+}
+.tab-button:first-child{
+  margin-bottom: 21px;
+}
+.tab-button{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #212A2F;
+  padding: 16px 80px;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.tab-description{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
 }
 .tab-title{
   font-family: 'Roboto';
@@ -53,21 +100,28 @@ input[type="radio"] {
   color: #212A2F;
   border-bottom: solid 1px #D3D4D5;
   max-width: 336px;
-  margin-bottom: 16px;
   padding-bottom: 10px;
+  margin: 17px 0px 16px 30px;
 }
-.tab-description{
+.tab-description__text{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #212A2F;
+  text-align: center;
+  margin-left: 12px;
+}
+input:checked + .tab {
+  border-bottom: solid 2px #000000;
+}
+/* input[type="radio"]:nth-of-type(1):checked ~ .tab-content:nth-of-type(1) {
   display: flex;
 }
-.tab-content__buttons{
-  font-display: flex;
+input[type="radio"]:nth-of-type(2):checked ~ .tab-content:nth-of-type(2) {
+  display: flex;
 }
-.tab-content__background{
-  position: relative;
-}
-.tab-content__buttons{
-  position: absolute;
-  top: 0;
-  left: 1000;
-  
-}
+input[type="radio"]:nth-of-type(3):checked ~ .tab-content:nth-of-type(3) {
+  display: flex;
+} */
+

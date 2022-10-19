@@ -1,18 +1,22 @@
 header{
     background: #FFFFFF;
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.09);
-    padding: 10px 0;
+    
 }
 .header-wrap{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 60px;
 }
 .navigation-list{
     display: flex;
     align-items: center;
 }
-.navigation-list a{
+.navigation-list__item:not(:last-child){
+    margin-right: 36px;
+}
+.navigation-list__item-link{
     font-size: 12px;
     line-height: 21px;
     text-align: center;
@@ -21,19 +25,20 @@ header{
     color: #212A2F;
     text-decoration: none;
 }
-.navigation-list li:not(:last-child){
-    margin-right: 36px;
-}
-.navigation-links{
+.navigation{
     display: flex;
 }
 .navigation-user-action{
     display: flex;
+    margin-left: 21px;
 }
-.navigation-user-action__icon{
+.navigation__button{
     border: none;
     background-color: #FFFFFF;
     margin-left: 18px;
+}
+.navigation__button:first-child{
+    margin: 0;
 }
 .fa-regular{
    font-size: 25px;
