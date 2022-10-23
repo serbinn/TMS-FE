@@ -3,36 +3,29 @@
   padding-bottom: 142px;
 }
 .favorites-title{
-    text-align: center;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.5px;
-    color: #212A2F;
     margin-bottom: 32px;
+    text-align: center;
 }
 input[type="radio"] {
     display: none;
-  }
+}
   .tab-wrap{
     display: flex;
     justify-content: space-between;
     max-width: 526px;
     margin: 0 auto;
-  }
+}
   .tab-content{
     display: flex;
     justify-content: space-between;
-  }
+    object-fit: cover;
+}
   .tab-content-wrap{
-    max-width: 30%;
-  }
+    max-width: 32%;
+}
   .tab-content__background img{
-    max-width: 396px;
-    
-  }
+    width: 100%;
+}
   .tab {
     font-family: 'Roboto';
     font-weight: 700;
@@ -41,23 +34,16 @@ input[type="radio"] {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     color: #212A2F;
     margin-bottom: -1px;
-    display: inline-block;
-    padding: 10px 35px;
-    max-width: 526px;
-  }
-
+    padding: 10px 33px;
+}
 .tab-separator{
     display: block;
     background: #D3D4D5;
     margin-top: 0px;
     margin-bottom: 30px;
 }
-
-
-
 .tab-content__background{
   position: relative;
   display: inline-block;
@@ -68,24 +54,16 @@ input[type="radio"] {
   position: absolute;
   top: 36%;
   left: 15%;
- 
 }
 .tab-button:first-child{
   margin-bottom: 21px;
 }
 .tab-button{
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   color: #212A2F;
   padding: 16px 80px;
   border: none;
   background-color: #FFFFFF;
 }
-
 .tab-description{
   display: flex;
   align-items: center;
@@ -101,7 +79,7 @@ input[type="radio"] {
   border-bottom: solid 1px #D3D4D5;
   max-width: 336px;
   padding-bottom: 10px;
-  margin: 17px 0px 16px 30px;
+  margin: 17px 30px 16px 30px;
 }
 .tab-description__text{
   display: inline-block;
@@ -115,13 +93,3 @@ input[type="radio"] {
 input:checked + .tab {
   border-bottom: solid 2px #000000;
 }
-/* input[type="radio"]:nth-of-type(1):checked ~ .tab-content:nth-of-type(1) {
-  display: flex;
-}
-input[type="radio"]:nth-of-type(2):checked ~ .tab-content:nth-of-type(2) {
-  display: flex;
-}
-input[type="radio"]:nth-of-type(3):checked ~ .tab-content:nth-of-type(3) {
-  display: flex;
-} */
-

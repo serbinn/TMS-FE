@@ -1,0 +1,39 @@
+.nature{
+    padding-top: 44px;
+    padding-bottom: 138px;
+}
+.nature-description{
+    text-align: center;
+    margin-bottom: 119px;
+}
+.nature-description__title{
+    margin-bottom: 22px;
+}
+.nature-description__info{
+    display: block;
+    max-width: 660px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26px;
+}
+.nature-button{
+    padding: 17px 154px 15px 154px;
+    color: #FFFFFF;
+    background-color:#212A2F;
+}
+.nature-cart__item--img img{
+    width: 100%;
+}
+.nature-cart__item--text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    margin-left: 17px;
+}
+.title-card__item{
+   margin: 18px 0 6px 17px; 
+}

@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/awesome-iconfont.css" />
+  <link rel="stylesheet" href="./css/awesome-iconfont.css"/>
   <title>Allbirds</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
     </div>
   </header>
   <section class="main-info">
-    <div class="main-info__background">
+    <div class="main-info__background background">
       <img src="./img/Main-bg.jpeg" alt="main-info">
     </div>
     <div class="content-wrap">
@@ -54,10 +55,10 @@
         Durable. Comfortable. Ready to get dirty.
       </span>
       <div class="main-info__gender">
-        <button class="button">
+        <button class="main-info__button button">
           Shop Men
         </button>
-        <button class="button">
+        <button class="main-info__button button">
           Shop Women
         </button>
       </div>
@@ -65,7 +66,7 @@
   </section>
   <section class="favorites">
     <div class="container">
-      <h2 class="favorites-title">
+      <h2 class="favorites-title title">
         Our Favorites
       </h2>
       <div class="tab-wrap">
@@ -82,10 +83,10 @@
           <div class="tab-content__background">
           <img src="./img/Everyday.jpg" alt="everyday">
           <div class="tab-content__buttons">
-            <button class="tab-button">
+            <button class="tab-button button">
               Shop Men
             </button>
-            <button class="tab-button">
+            <button class="tab-button button">
               Shop Women
             </button>
           </div>
@@ -104,55 +105,266 @@
           <div class="tab-content__background">
           <img src="./img/Running.jpg" alt="running">
           <div class="tab-content__buttons">
-            <button class="tab-button">
+            <button class="tab-button button">
               Shop Men
             </button>
-            <button class="tab-button">
+            <button class="tab-button button">
               Shop Women
             </button>
           </div>
           </div>
           <h3 class="tab-title">
-            Wool Runner
+            Tree Runner
           </h3>
           <div class="tab-description">
             <div class="tab-description__img">
               <img src="./img/Light and Breezy Sneaker.svg" alt="Light and Breezy Sneaker">
             </div>
-            <span class="tab-description__text">Cozy Sneaker</span>
+            <span class="tab-description__text">Tree Runner</span>
           </div>
         </div>
         <div class="tab-content-wrap">
           <div class="tab-content__background">
           <img src="./img/Travel.jpg" alt="travel">
           <div class="tab-content__buttons">
-            <button class="tab-button">
+            <button class="tab-button button">
               Shop Men
             </button>
-            <button class="tab-button">
+            <button class="tab-button button">
               Shop Women
             </button>
           </div>
           </div>
           <h3 class="tab-title">
-            Wool Runner
+            Tree Runner
           </h3>
           <div class="tab-description">
             <div class="tab-description__img">
-              <img src="./img/Rain-Ready Sneaker.svg" alt="Cozy Sneaker">
+              <img src="./img/Rain-Ready Sneaker.svg" alt="Rain-Ready Sneaker">
             </div>
-            <span class="tab-description__text">Cozy Sneaker</span>
+            <span class="tab-description__text">Rain-Ready Sneaker</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="background-only">
+  <section class="background">
     <div class="background-only__background">
       <img src="./img/Orange Sneaker.jpg" alt="Orange Sneaker">
     </div>
   </section>
-
+  <section class="seasons">
+    <div class="container swiper">
+      <div class="seasons-description">
+        <h2 class="seasons-description__title title">
+          Seasons Change. Your Shoes Don’t Have To.
+        </h2>
+        <span class="seasons-description__info info">Soft and cozy wool shoes to keep you comfortable all year round.</span>
+        <div class="seasons-description__button">
+          <button class="season-button button">
+            Shop Men
+          </button>
+          <button class="season-button button">
+            Shop Women
+          </button>
+        </div>
+      </div>
+      <div class="season-cart">
+        <h2 class="title-card title">
+          Shop The Collections
+        </h2>
+        <div class="slide-content">
+          <div class="season-cart__wrap swiper-wrapper">
+            <div class="season-cart__item swiper-slide">
+              <div class="season-cart__item--img">
+                <img src="./img/New Arrivals.jpg" alt="New arrivals">
+              </div>
+              <h3 class="title-card__item">
+                New Arrivals
+              </h3>
+              <p class="season-cart__item--text">
+                The latest styles and limited edition colors that you can only find here (while they last, that is).
+              </p>
+            </div>
+            <div class="season-cart__item swiper-slide">
+              <div class="season-cart__item--img">
+                <img src="./img/FreshLongSleeve.jpg" alt="New arrivals">
+              </div>
+              <h3 class="title-card__item">
+                Natural Run Collection
+              </h3>
+              <p class="season-cart__item--text">
+                Looking for more sustainable ways to break a sweat? We’ve got you covered from head to toe.
+              </p>
+            </div>
+            <div class="season-cart__item swiper-slide">
+              <div class="season-cart__item--img">
+                <img src="./img/NaturalRunCollection.jpg" alt="Natural Run">
+              </div>
+              <h3 class="title-card__item">
+                Fresh Long Sleeve Tee Colors
+              </h3>
+              <p class="season-cart__item--text">
+                It’s crisp, clean and ready for wherever the day takes you.
+              </p>
+            </div>
+          </div>
+          <div class="item__next swiper-button-next"></div>
+          <div class="item__prev swiper-button-prev"></div>  
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section class="background-2">
+    <div class="background-only__background">
+      <img src="./img/Wood.jpg" alt="Orange Sneaker">
+    </div>
+  </section>
+  <section class="nature">
+    <div class="container swiper">
+      <div class="nature-description">
+        <h2 class="nature-description__title title">
+          Made From Nature, For Nature
+        </h2>
+        <span class="nature-description__info info">We craft with planet-friendly natural materials, like merino wool and eucalyptus trees, because they're our best chance for a sustainable future.
+        </span>
+        <div class="nature-description__button">
+          <button class="nature-button button">
+            See How
+          </button>
+        </div>
+      </div>
+      <div class="nature-cart">
+        <h2 class="title-card title">
+          New Arrivals
+        </h2>
+        <div class="slide-content">
+          <div class="nature-cart__wrap swiper-wrapper">
+            <div class="nature-cart__item swiper-slide">
+              <div class="nature-cart__item--img">
+                <img src="./img/Sneakers black.jpg" alt="New arrivals">
+              </div>
+              <h3 class="title-card__item">
+                Men's Trail Runner SWT
+              </h3>
+              <p class="nature-cart__item--text">
+                Classic Color, Natural Black
+              </p>
+            </div>
+            <div class="nature-cart__item swiper-slide">
+              <div class="nature-cart__item--img">
+                <img src="./img/Sneakers white.jpg" alt="New arrivals">
+              </div>
+              <h3 class="title-card__item">
+                Women's Trail Runner SWT
+              </h3>
+              <p class="nature-cart__item--text">
+                Classic Color, Natural White
+              </p>
+            </div>
+            <div class="nature-cart__item swiper-slide"> 
+              <div class="nature-cart__item--img">
+                <img src="./img/Sneakers red.jpg" alt="Natural Run">
+              </div>
+              <h3 class="title-card__item">
+                Men's Trail Runner SWT
+              </h3>
+              <p class="nature-cart__item--text">
+                Limited Edition Color, Diablo
+              </p>
+            </div>
+          </div>
+          <div class="item__next swiper-button-next"></div>
+          <div class="item__prev swiper-button-prev"></div>  
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section class="background-3">
+    <div class="background-only__background">
+      <img src="./img/Mosaic.jpg" alt="Orange Sneaker">
+    </div>
+  </section>
+  <section class="reversing">
+    <div class="container swiper">
+      <div class="reversing-description">
+        <h2 class="reversing-description__title title">
+          Reversing Climate Change Through Better Business
+        </h2>
+        <span class="reversing-description__info info">Reducing our environmental impact has been a top priority since day one. But now, we’re taking things further. Explore our overall sustainability approach, our progress thus far, and our bold list of commitments for 2025.
+        </span>
+        <div class="reversing-description__button">
+          <button class="reversing-button button">
+            Our Sustainable Practices
+          </button>
+        </div>
+      </div>
+      <div class="nature-cart">
+        <h2 class="title-card title">
+          Stories
+        </h2>
+        <div class="slide-content">
+          <div class="nature-cart__wrap swiper-wrapper">
+            <div class="nature-cart__item swiper-slide">
+              <div class="nature-cart__item--img">
+                <img src="./img/Planet-friendly.jpg" alt="Planet-friendly">
+              </div>
+              <h3 class="title-card__item">
+                Planet-Friendly Activewear
+              </h3>
+              <p class="nature-cart__item--text">
+                The Natural Run Collection is made with sustainable materials that can stand up to your toughest workout.
+              </p>
+            </div>
+            <div class="nature-cart__item swiper-slide">
+              <div class="nature-cart__item--img">
+                <img src="./img/Adidas.jpg" alt="Adidas">
+              </div>
+              <h3 class="title-card__item">
+                adidas and Allbirds
+              </h3>
+              <p class="nature-cart__item--text">
+                Learn more about FUTURECRAFT.FOOTPRINT, our collaborative shoe coming soon.
+              </p>
+            </div>
+            <div class="nature-cart__item swiper-slide"> 
+              <div class="nature-cart__item--img">
+                <img src="./img/How much.jpg" alt="How much">
+              </div>
+              <h3 class="title-card__item">
+                How much did your outfit cost the planet?
+              </h3>
+              <p class="nature-cart__item--text">
+                Now any brand can use our Carbon Footprint tools to label their emissions.
+              </p>
+            </div>
+          </div>
+          <div class="item__next swiper-button-next"></div>
+          <div class="item__prev swiper-button-prev"></div>  
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="container">
+      <div class="form-description">
+        <h2 class="subscribe-description__title title">
+          Want First Dibs?
+        </h2>
+        <span class="form-description__info info">Join our email list and be the first to know about new limited edition products, material innovations, and lots of other fun updates.
+        </span>
+      </div>
+      <div class="form-wrap">
+        <form class="form" action="#" method="get" enctype="multipart/form-data">
+          <input type="email" name="email" value="" placeholder="Enter Your Email Address">
+        </form>
+        <button class="button form-button">
+          Sign Up
+        </button> 
+      </div>
+      <span class="note">Note: You can opt-out at any time. See our Privacy Policy and Terms</span>
+    </div>
+  </section>
   <footer class="footer">
     <div class="container">
       <div class="footer-wrap-top">
@@ -225,5 +437,7 @@
     </div>
   </footer>
 </body>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 
 </html>
