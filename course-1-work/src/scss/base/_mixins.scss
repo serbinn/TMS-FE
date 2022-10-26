@@ -1,0 +1,7 @@
+Media queries
+
+@mixin bp($point) {
+  @media (max-width: $point) {
+    @content;
+  }
+}
