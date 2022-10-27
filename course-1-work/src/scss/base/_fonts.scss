@@ -9,24 +9,11 @@
   url("../fonts/DINPro-Regular.ttf") format("truetype");
   font-style: normal;
 }
-
 @font-face {
-  font-family: "Montserrat";
-  src: url("/src/fonts/Montserrat/Montserrat-Bold.ttf");
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway-Regular.ttf");
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("../base/");
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("../base/_fonts.scss");
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../base/_fonts.scss");
-}
-@font-face {
-  font-family: "KaushanScript";
-  src: url("/src/fonts/KaushanScript/KaushanScript-Regular.ttf");
+  font-family: 'Cardo';
+  src: url("../fonts/Cardo-Italic.ttf");
 }
