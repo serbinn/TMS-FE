@@ -13,9 +13,9 @@
 //   }
 // }
 .header {
-  background-color: rgb(214, 127, 195);
   height: 100px;
   border-bottom: 1px solid #babbc5;
+
   &-wrapper {
     display: flex;
     justify-content: space-between;
@@ -38,10 +38,9 @@
 
 .header-list {
   display: flex;
+
   &-item {
-    padding: 43px 35px 41px 35px;
-  }
-  &-item {
+    padding: 43px 35px 38px 35px;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 13px;
@@ -49,10 +48,15 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #000;
+    color: $white;
   }
   &-item:hover {
     border-bottom: solid 3px #babbc5;
+
+   
+  }
+  &-item:active {
+    border-bottom: solid 4px #E71414;
   }
 }
 
