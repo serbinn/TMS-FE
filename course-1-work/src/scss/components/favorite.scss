@@ -1,5 +1,5 @@
 .favorite{
-    padding: 130px 0px; 
+    padding: 130px 0px 111px; 
 }
 .favorite-background{
     position: absolute;
@@ -49,6 +49,7 @@
         border: none;
         padding: 29px 92px;
         margin: 0 auto;
+        cursor: pointer;
             &:hover{
                 background-color: #E71414;
             }
