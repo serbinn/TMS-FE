@@ -1,0 +1,137 @@
+
+.slider{
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+.navigation{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    height: 14px;
+    width: 14px;
+    margin: 6px;
+    cursor: pointer;
+    border: 1px solid #7E5D6F;
+    border-radius: 10px;
+    transition: all .4s ease;
+        &:not(:last-child){
+            margin-right: 25px;
+    }
+}
+.bar:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    background-color: #5C3249;
+}
+.bar:checked{
+    background-color: #5C3249;
+}
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex; 
+    position: relative;
+}
+.slide-wrapper{
+    display: flex;
+    width: 20%;
+    transition: all 1s ease;
+}
+.slide-image{
+    width: 50%;
+    max-height: 700px;
+    img{
+        width: 100%;
+        height: 90%;
+    }
+}
+  
+.slide-info{
+    width: 50%;
+    height: 90%;
+    background: #5C3249;
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    position: relative;
+    p{
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)  
+    }
+    span{
+        display: block;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+}
+.sl2{
+    background: #5C3209;
+}
+.sl3{
+    background: #5C3289;
+}
+.sl4{
+    background: #5C1000;
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
+.swiper-description{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 114px;
+
+}
+.swiper-info{
+    display: block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 34px;
+    margin-bottom: 50px;
+}
+.swiper{
+    padding-bottom: 114px;
+}
