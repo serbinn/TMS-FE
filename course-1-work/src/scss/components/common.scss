@@ -6,4 +6,7 @@ body{
     margin: 0 auto;
     overflow: hidden;
     padding: 0 15px;
+    @media (max-width:1037px){
+        max-width: 984px;
+    }
 }
