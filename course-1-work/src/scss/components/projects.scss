@@ -1,10 +1,13 @@
 .projects-wrapper{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 379px);
-    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     column-gap: 2px; 
-    row-gap: 5px;
+    row-gap: 2px;
+    @media (max-width:1113px){
+        grid-template-columns: repeat(auto-fit, minmax(257px, 1fr));
+    } @media (max-width:515px){
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
 }
 .img-box{
     position: relative;
